@@ -1,62 +1,62 @@
 /* Reset some default styles to ensure consistency across browsers */
 body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Arial", sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-  }
-  
-  .phone-container {
-    max-width: 375px; /* Set the maximum width of the "phone screen" */
-    margin: 0 auto; /* Center the phone screen horizontally */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
-    border-radius: 15px; /* Add rounded corners to the "phone screen" */
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    border-top-left-radius: 15px; /* Round the top-left corner of the header */
-    border-top-right-radius: 15px; /* Round the top-right corner of the header */
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    border-bottom: 2px solid #fff;
-  }
-  
-  section {
-    padding: 1rem; /* Add some spacing inside each section */
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    border-bottom-left-radius: 15px; /* Round the bottom-left corner of the footer */
-    border-bottom-right-radius: 15px; /* Round the bottom-right corner of the footer */
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #fff; /* Set the background color to white */
+  margin: 40px; /* Add margin around the edge of the browser */
+}
+
+.browser-container {
+  max-width: 375px; /* Set the maximum width of the "phone screen" */
+  margin: 0 auto; /* Center the phone screen horizontally */
+}
+
+.phone-container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  border-radius: 15px; /* Add rounded corners to the "phone screen" */
+  background-color: #fde3e9; /* Set a cute pastel pink background color for the "phone screen" */
+}
+
+header {
+  padding: 1rem;
+  border-top-left-radius: 15px; /* Round the top-left corner of the header */
+  border-top-right-radius: 15px; /* Round the top-right corner of the header */
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+section {
+  padding: 1rem; /* Add some spacing inside each section */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-bottom-left-radius: 15px; /* Round the bottom-left corner of the footer */
+  border-bottom-right-radius: 15px; /* Round the bottom-right corner of the footer */
+}
